@@ -1,0 +1,9 @@
+order_id,customer_name,product,status,carrier,tracking_code,estimated_delivery
+1001,Ana Silva,Notebook Dell,Em trânsito,Correios,BR100000001,2026-09-09
+1002,Carlos Souza,Mouse Logitech,Entregue,Amazon Logistics,BR100000002,2026-09-03
+1003,Mariana Costa,Teclado Mecânico,Em preparação,Correios,BR100000003,2026-09-12
+1004,João Santos,Monitor LG,Atrasado,Total Express,BR100000004,2026-09-05
+1005,Beatriz Lima,Headset HyperX,Enviado,Jadlog,BR100000005,2026-09-10
+1006,Rafael Oliveira,Webcam Logitech,Cancelado,Correios,BR100000006,-
+1007,Lucas Alves,SSD Kingston,Em trânsito,Jadlog,BR100000007,2026-09-11
+1008,Juliana Martins,Impressora HP,Entregue,Total Express,BR100000008,2026-09-02
