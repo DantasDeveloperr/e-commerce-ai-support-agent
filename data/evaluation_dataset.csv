@@ -1,0 +1,11 @@
+question,category,expected_source
+"Quero trocar um produto que comprei.",troca,trocas.txt
+"Recebi meu produto, mas quero fazer uma troca. Como funciona?",troca,trocas.txt
+"Quais são as condições para trocar um produto?",troca,trocas.txt
+"Preciso devolver um produto e receber outro.",troca,trocas.txt
+"Qual é o prazo de entrega?",entrega,entrega.txt
+"Qual é o prazo da entrega?",entrega,entrega.txt
+"Meu pedido está atrasado. O que devo fazer?",atraso,entrega.txt
+"Minha encomenda passou da data prevista. Como resolvo?",atraso,entrega.txt
+"Como faço para declarar imposto de renda?",fora_do_escopo,nenhum
+"Qual é a taxa de juros do cartão?",fora_do_escopo,nenhum

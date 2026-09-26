@@ -24,7 +24,7 @@ def ask_llm(question):
     for attempt in range(max_attempts):
         try:
             response = client.models.generate_content(
-                model="gemini-3.5-flash",
+                model="gemini-flash-lite-latest",
                 contents=question
             )
 
