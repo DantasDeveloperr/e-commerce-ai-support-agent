@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-commerce AI Support</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="/static/assets/avatar.png"
+    >
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+       <button
+    id="chat-toggle"
+    class="chat-toggle"
+    aria-label="Abrir atendimento"
+>
+    <img
+        src="/static/assets/avatar.png"
+        alt="Assistente virtual"
+    >
+</button>
+
+        <section id="chat-container" class="chat-container">
+
+           <header class="chat-header">
+
+    <div class="chat-agent">
+
+        <div class="agent-avatar">
+    <img
+        src="/static/assets/avatar.png"
+        alt="Assistente virtual"
+    >
+</div>
+
+        <div class="agent-info">
+            <h1>E-commerce AI Support</h1>
+
+            <span class="agent-status">
+                <span class="status-dot"></span>
+                Online
+            </span>
+        </div>
+
+    </div>
+
+    <button
+        id="chat-close"
+        class="chat-close"
+        aria-label="Fechar atendimento"
+    >
+        ×
+    </button>
+
+</header>
+
+            <div id="chat-messages" class="chat-messages">
+
+                <div class="message bot-message">
+                    Olá! 👋 Como posso ajudar você?
+                </div>
+
+            </div>
+
+            <form id="chat-form" class="chat-input-area">
+
+                <input
+                    type="text"
+                    id="message-input"
+                    placeholder="Digite sua mensagem..."
+                    autocomplete="off"
+                    required
+                >
+
+                <button type="submit" id="send-button">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="/static/js/app.js"></script>
+
+</body>
+
+</html>

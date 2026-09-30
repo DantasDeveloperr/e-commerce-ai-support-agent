@@ -1,10 +1,9 @@
 import re
 
-from gemini_client import ask_llm
-from data_loader import find_order
-from semantic_search import search_knowledge_semantic
-from conversation_logger import log_conversation
-
+from src.gemini_client import ask_llm
+from src.data_loader import find_order
+from src.semantic_search import search_knowledge_semantic
+from src.conversation_logger import log_conversation
 
 conversation_state = {
     "waiting_for_order_id": False

@@ -2,8 +2,8 @@ import json
 
 from pathlib import Path
 
-from embedding_client import create_embedding
-from vector_search import cosine_similarity
+from src.embedding_client import create_embedding
+from src.vector_search import cosine_similarity
 
 
 EMBEDDINGS_PATH = Path("data/knowledge_embeddings.json")
